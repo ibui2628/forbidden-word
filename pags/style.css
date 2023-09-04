@@ -1,0 +1,13 @@
+button{
+    width: 20%;
+    height: 30px;
+}
+main{
+    background: #ccc;
+    padding: 20px 10px;
+    box-shadow: 4px 8px 6px #333;
+}
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
