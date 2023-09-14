@@ -2,12 +2,35 @@ button{
     width: 20%;
     height: 30px;
 }
-main{
-    background: #ccc;
-    padding: 20px 10px;
-    box-shadow: 4px 8px 6px #333;
+section{
+    background: #eee;
+    padding: 20px 5%;
+    box-shadow: 0 0 9px 7px #333;
+    border-radius: 10px;
 }
 body{
-    text-align: center;
-    font-family: sans-serif;
+    font-family:Yu Gothic Medium,YuGothic,Hiragino Kaku Gothic ProN,Meiryo,MS PGothic,sans-serif;
+    padding: 20px 10%;;
+}
+hr{
+    background-color: #999;
+    border: none;
+    height: 1px;
+}
+button{
+    background-color: #113;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    width: 80%;
+    height: 25px;
+    margin: 5px 0;
+    border: solid 1px #aaa;
+    border-radius: 5px;
+}
+label {
+    font-size: 1.5em;
 }
