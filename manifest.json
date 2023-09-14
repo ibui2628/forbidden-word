@@ -2,7 +2,7 @@
 "manifest_version": 3,
 "name": "forbidden word",
 "description": "設定した禁止ワードが含まれたWEBサイトを表示しない拡張機能です。",
-"version": "2.0",
+"version": "2.1",
     "icons": {
         "16": "icon/16.png",
         "48": "icon/48.png",
@@ -23,5 +23,4 @@
         "default_popup": "pags/popup.html"
     },
     "options_page": "pags/options.html"
-
 }
