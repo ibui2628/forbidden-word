@@ -2,9 +2,11 @@ const url = location.hostname;
 console.log("hostname:" + url);
 window.setTimeout(function () {
     var kdata = {};
-    kdata.fw_data = { word: "", exclusion: "" };
+    kdata.fw_data = { word: "", exclusion: ""};
+    kdata.power = true;
     chrome.storage.local.get(kdata, function (getdata) {
-        if (getdata.fw_data.word != '') {
+
+        if (getdata.fw_data.word != '' && getdata.power) {
             var ch = true;
             const bodydata = document.body.innerHTML;
             const or = bodydata.match(new RegExp(getdata.fw_data.word, "g"));

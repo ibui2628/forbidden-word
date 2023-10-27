@@ -2,7 +2,7 @@
 "manifest_version": 3,
 "name": "forbidden word",
 "description": "設定した禁止ワードが含まれたWEBサイトを表示しない拡張機能です。",
-"version": "2.1",
+"version": "2.2",
     "icons": {
         "16": "icon/16.png",
         "48": "icon/48.png",
