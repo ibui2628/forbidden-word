@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>設定</title>
+</head>
+<body>
+    <h1>forbidden wordの設定</h1>
+    <section>
+        <label>禁止ワード:<br><input type="text" placeholder="記入例:禁止ワード1|禁止ワード2|禁止ワード3" id="noword"></label><br>
+        <p>複数禁止ワードを設定する場合は「|」を小文字で区切ってください</p>
+        <hr>
+        <label>除外サイトのhostname:<br><input type="text" placeholder="記入例:example.com|example.net|example.org" id="noexclusion"></label><br>
+        <p>複数除外サイトを設定する場合は「|」を小文字で区切ってください (https://,http://は省略してください)</p>
+        <hr>
+        <label>厳格な判定:<br><select id="rigor">
+            <option value="none">無効</option>
+            <option value="low">有効</option>
+        </select></label><br>
+        <p>この項目を有効にすると禁止ワード検出プログラムが5秒ごとに実行されます <br>(無効時にはページの読み込み時に一回)</p>
+        <hr>
+        <div><button id="ge">保存</button></div>
+    </section><br>
+    <a href="https://github.com/ibui2628/forbidden-word" target="_blank" rel="noopener">forbidden wordのgithubにアクセスする</a>
+    <script src="options_script.js"></script>
+</body>
+</html>

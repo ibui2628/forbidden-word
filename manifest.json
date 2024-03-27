@@ -1,8 +1,8 @@
 {
 "manifest_version": 3,
 "name": "forbidden word",
-"description": "設定した禁止ワードが含まれたWEBサイトを表示しない拡張機能です。",
-"version": "2.2",
+"description": "設定した禁止ワードが含まれたWEBサイトを表示しない拡張機能",
+"version": "2.3.0",
     "icons": {
         "16": "icon/16.png",
         "48": "icon/48.png",
@@ -20,7 +20,7 @@
     "action": {
         "default_title": "forbidden word メニュー",
         "default_icon": "icon/48.png",
-        "default_popup": "pags/popup.html"
+        "default_popup": "pages/popup.html"
     },
-    "options_page": "pags/options.html"
+    "options_page": "pages/options.html"
 }
